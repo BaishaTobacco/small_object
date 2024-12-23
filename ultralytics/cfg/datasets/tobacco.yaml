@@ -1,0 +1,12 @@
+# Train/val
+train: D:\python_project_inD\company_project\BBAVectors-Oriented-Object-Detection-master\BBAVectors-Oriented-Object-Detection-master\datasets\DOTA_devkit\example\tobacco\tobacco\images_origi\train
+val: D:\python_project_inD\company_project\BBAVectors-Oriented-Object-Detection-master\BBAVectors-Oriented-Object-Detection-master\datasets\DOTA_devkit\example\tobacco\tobacco\images_origi\train
+test: D:\python_project_inD\company_project\BBAVectors-Oriented-Object-Detection-master\BBAVectors-Oriented-Object-Detection-master\datasets\DOTA_devkit\example\tobacco\tobacco\images_origi\val
+
+# Classes
+nc: 2  # number of classes
+# names: ['ship']
+
+names:
+  0: tobacco
+  1: wire
